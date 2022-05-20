@@ -1,0 +1,82 @@
+
+    
+    
+@media only screen and (max-width: 600px){
+    body{
+    background-color:rgb(127, 125, 156);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* For desktop: */
+    body{
+        background-color:antiquewhite;
+    }
+    
+  }
+div{
+    font-family: calibri    ;
+}
+@font-face {
+    font-family: calibri;
+    src: url(calibri-regular.ttf);
+}
+footer{
+    background-color:darkblue;
+    font-family:calibri ;
+}
+.head-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-content:center;
+    height: 300px;
+    gap: 30px;
+    background-color: rgba(185, 206, 216, 0.8);
+    padding: 10px;
+}
+.head-grid >div{
+    
+    
+    text-align:center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    align-content: center;
+    
+    height: 500px;
+    gap: 10px;
+    background-color: rgba(185, 206, 216, 0.8);
+    padding: 10px;
+}
+
+.grid-container > div {
+    
+    
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.item1{
+    grid-column: 1/ span 3;
+}
+h1{
+    font-family:calibri;
+}
+hr{
+    border: 10px solid rgba(185, 206, 216, 0.8);
+}
+h2 a:link {
+    color: #623bf0;
+}
+
+
+h2 a:visited {
+    color: #00FF00;
+}
+.item5{
+    grid-column:1/span 3;
+}
